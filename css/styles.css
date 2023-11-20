@@ -10,4 +10,46 @@ h1 {
   color: #333;
 }
 
+*{
+  list-style: none;
+}
 
+#listaUsuarios {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+body{
+  background-color: #fafafa;
+}
+
+.bloque-grande {
+  border: rgba(128, 128, 128, 0.50) 1px solid;
+  padding: 15px 15px 25px 15px;
+  border-radius: 5px;
+  width: 500px;
+}
+
+.bloque-pequeñu {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.bloque-pequeñu ul {
+  border: rgba(128, 128, 128, 0.50) 1px solid;
+  padding: 15px;
+  margin-right: 15px;
+  border-radius: 5px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.foto-usuario {
+  width: 150px;
+}
